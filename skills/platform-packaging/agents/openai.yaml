@@ -1,0 +1,4 @@
+interface:
+  display_name: "Platform Packaging"
+  short_description: "Help with Platform Packaging tasks"
+  default_prompt: "Use $platform-packaging to create honest, high-click YouTube upload assets for this script."

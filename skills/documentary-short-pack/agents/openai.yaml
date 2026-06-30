@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentary Short Pack"
+  short_description: "Help with Documentary Short Pack tasks"
+  default_prompt: "Use $documentary-short-pack to create the Trailer, Standalone, and Provocation Shorts."

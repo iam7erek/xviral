@@ -1,0 +1,10 @@
+{
+  "name": "documentary-studio",
+  "version": "1.2.0",
+  "description": "XVIRAL — Viral Precision documentary production. Say XVIRAL to start. Isolated research, architecture, writing, retention, and audit agents enforcing both Epistemic Integrity and Narrative Power on every release. v1.2: adversarial override resistance, deterministic artifact validation, thesis_coherence_map required, inference_id coverage in packaging and shorts, topic-activation word-count gate, causal-chain and multi-driver validation in research skill, Beruf canonical fixtures.",
+  "author": {
+    "name": "iam7erek",
+    "url": "https://github.com/iam7erek"
+  },
+  "skills": "./skills/"
+}

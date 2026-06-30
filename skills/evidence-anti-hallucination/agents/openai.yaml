@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Anti Hallucination"
+  short_description: "Help with Evidence Anti Hallucination tasks"
+  default_prompt: "Use $evidence-anti-hallucination to build an auditable Evidence Ledger for these claims."

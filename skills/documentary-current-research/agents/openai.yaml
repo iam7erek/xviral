@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentary Current Research"
+  short_description: "Help with Documentary Current Research tasks"
+  default_prompt: "Use $documentary-current-research to build a dated Source Ledger for this documentary topic."

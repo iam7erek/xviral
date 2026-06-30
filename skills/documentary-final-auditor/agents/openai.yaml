@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentary Final Auditor"
+  short_description: "Block unsafe or structurally weak releases"
+  default_prompt: "Use $documentary-final-auditor to audit this final documentary export before release."

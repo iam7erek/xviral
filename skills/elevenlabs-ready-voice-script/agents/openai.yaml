@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elevenlabs Ready Voice Script"
+  short_description: "Help with Elevenlabs Ready Voice Script tasks"
+  default_prompt: "Use $elevenlabs-ready-voice-script to format this approved recording draft for ElevenLabs v3."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concrete Grounding Recording Pass"
+  short_description: "Help with Concrete Grounding Recording Pass tasks"
+  default_prompt: "Use $concrete-grounding-recording-pass to ground and clean this approved narration."

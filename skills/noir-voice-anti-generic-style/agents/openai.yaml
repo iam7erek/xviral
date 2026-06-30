@@ -1,0 +1,4 @@
+interface:
+  display_name: "Noir Voice Anti Generic Style"
+  short_description: "Help with Noir Voice Anti Generic Style tasks"
+  default_prompt: "Use $noir-voice-anti-generic-style to apply the channel voice without factual drift."

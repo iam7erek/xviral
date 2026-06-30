@@ -1,0 +1,4 @@
+interface:
+  display_name: "Psychological Blueprint Architect"
+  short_description: "Help with Psychological Blueprint Architect tasks"
+  default_prompt: "Use $psychological-blueprint-architect to structure this documentary for retention and payoff."

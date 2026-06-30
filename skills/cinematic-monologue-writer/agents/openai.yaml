@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Monologue Writer"
+  short_description: "Write a research-locked spoken documentary"
+  default_prompt: "Use $cinematic-monologue-writer to draft the approved documentary narration."

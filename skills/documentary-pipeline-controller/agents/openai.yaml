@@ -1,0 +1,8 @@
+interface:
+  display_name: "Documentary Pipeline Controller"
+  short_description: "Viral Precision documentary workflow — Epistemic Integrity + Narrative Power enforced on every release"
+  default_prompt: "Use $documentary-pipeline-controller to help me make a YouTube documentary."
+  enforcement_axes:
+    - epistemic_integrity: "causal absolutes, false dichotomies, scope expansion, single-cause attribution, inference labeling, thesis coherence"
+    - narrative_power: "first-sentence traction, promise clarity, discovery turns, payoff fidelity, viral thesis retellability"
+  release_gate: "Both epistemic_integrity_status: PASS and viral_readiness_status: READY required"

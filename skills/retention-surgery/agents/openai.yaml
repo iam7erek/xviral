@@ -1,0 +1,4 @@
+interface:
+  display_name: "Retention Surgery"
+  short_description: "Help with Retention Surgery tasks"
+  default_prompt: "Use $retention-surgery to tighten this documentary without changing its evidence."

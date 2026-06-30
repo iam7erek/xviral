@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentary Topic Intelligence"
+  short_description: "Help with Documentary Topic Intelligence tasks"
+  default_prompt: "Use $documentary-topic-intelligence to find one defensible, non-obvious angle from this ResearchPacket."

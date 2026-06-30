@@ -36,15 +36,15 @@ Five specialized agents run in sequence, each isolated so context can't leak bet
 
 ```mermaid
 flowchart TB
-    you["🗣️ You: <b>XVIRAL</b>"] --> intake["📋 Intake form<br/><sub>topic · language · tone · duration · audience</sub>"]
-    intake --> ctrl["🎛️ documentary-pipeline-controller<br/><sub>orchestrates the run</sub>"]
-    ctrl --> R["🔍 <b>Researcher</b><br/><sub>primary-source closure, evidence classification</sub>"]
-    R --> A["🏛️ <b>Architect</b><br/><sub>locks angle, promise, motif, structure</sub>"]
-    A --> W["✍️ <b>Writer</b><br/><sub>full spoken draft + claim map</sub>"]
-    W --> E["✂️ <b>Retention Editor</b><br/><sub>retention surgery, voice cleanup</sub>"]
-    E --> AU{"🛡️ <b>Final Auditor</b><br/><sub>blocks factual / structural / contract failures</sub>"}
+    you["🗣️ You: XVIRAL"] --> intake["📋 Intake form<br/>topic, language, tone, duration, audience"]
+    intake --> ctrl["🎛️ documentary-pipeline-controller<br/>orchestrates the run"]
+    ctrl --> R["🔍 Researcher<br/>primary-source closure, evidence classification"]
+    R --> A["🏛️ Architect<br/>locks angle, promise, motif, structure"]
+    A --> W["✍️ Writer<br/>full spoken draft + claim map"]
+    W --> E["✂️ Retention Editor<br/>retention surgery, voice cleanup"]
+    E --> AU{"🛡️ Final Auditor<br/>blocks factual / structural / contract failures"}
     AU -->|"❌ fails"| R
-    AU -->|"✅ epistemic_integrity: PASS<br/>✅ viral_readiness: READY"| OUT["🎧 Paste-ready ElevenLabs narration"]
+    AU -->|"✅ PASS + READY"| OUT["🎧 Paste-ready ElevenLabs narration"]
 
     classDef gate fill:#1f2937,stroke:#6E56CF,stroke-width:2px,color:#fff;
     class AU gate;
